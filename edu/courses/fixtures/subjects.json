@@ -1,0 +1,49 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Maths",
+    "slug": "maths"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Maths",
+    "slug": "maths",
+    "overview": "Maths1",
+    "created": "2021-08-14T16:37:42.848Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 1,
+    "title": "Maths2",
+    "description": "Maths2"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "course": 1,
+    "title": "Maths3",
+    "description": "Maths3"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "course": 1,
+    "title": "maths4",
+    "description": "Maths"
+  }
+}
+]
