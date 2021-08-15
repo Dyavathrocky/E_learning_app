@@ -4,7 +4,7 @@ from django.db.models.base import Model
 from django.db.models.deletion import CASCADE
 from .fields import OrderField
 
-from django.contrib.contenttypes.models import ContentType
+from django.contrib.contenttypes.models import ContentType 
 from django.contrib.contenttypes.fields import GenericForeignKey
 
 # Create your models here.
